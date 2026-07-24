@@ -1,8 +1,6 @@
 :root {
     --primary-color: white;
-    --secondary-color: blue;
     --accent1-color: black;
-    --accent2-color: grey;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -51,6 +49,10 @@ article {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.hero article {
+    position: absolute;
 }
 
 h1 {
