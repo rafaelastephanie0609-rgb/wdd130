@@ -1,5 +1,4 @@
 :root {
-    --primary-color: white;
     --accent1-color: black;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -14,6 +13,10 @@
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+}
+
+body img {
+    width: 400px;
 }
 
 header,
@@ -78,3 +81,34 @@ article {
 footer img {
     width: 20px;
 }
+
+.heading {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(100px, 1fr);
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    justify-items: center;
+}
+
+footer {
+    display: flex;
+    justify-items: left;
+}
+
+section img {
+    display: flex;
+    justify-items: center;
+    width: 250px;
+}
+
+section p {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(100px, repeat(3, 1fr);
+            justify-content: center;
+    }
