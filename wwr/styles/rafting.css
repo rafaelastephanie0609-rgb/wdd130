@@ -35,7 +35,7 @@ header img {
 .navigation,
 .employ {
     display: grid;
-    grid-template-columns: (repeat(4, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     border: 1px solid rgb(0 0 0);
     padding: 10px;
